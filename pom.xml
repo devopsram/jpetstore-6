@@ -54,16 +54,16 @@
 		<name> Nexus Releases </name>
 	    <url> http://localhost:8081/nexus/service/local/staging/deploy/maven2 </url>
 	 </repository>
-	 <repository>
+	 <Snapshotrepository>
 	    <id> nexus </id>
 		<name> Nexus Snapshot </name>
 	    <url> http://localhost:8081/nexus/content/repositories/snapshots</url>
-	 </repository>
-	 <repository>
+	 </Snapshotrepository>
+	 <site>
 	    <id> nexus </id>
 		<name> Nexus Sites </name>
 	    <url> http://localhost:8081/nexus/sites/site</url>
-	 </repository>
+	 </site>
   
     <site>
       <id>gh-pages</id>
