@@ -59,7 +59,7 @@
 		<name> Nexus Snapshot </name>
 	    <url> http://localhost:8081/nexus/content/repositories/snapshots</url>
 	 </repository>
-	 repository>
+	 <repository>
 	    <id> nexus </id>
 		<name> Nexus Sites </name>
 	    <url> http://localhost:8081/nexus/sites/site</url>
