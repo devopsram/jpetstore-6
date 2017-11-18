@@ -49,11 +49,27 @@
     <url>https://travis-ci.org/mybatis/jpetstore-6</url>
   </ciManagement>
   <distributionManagement>
+     <repository>
+	    <id> nexus </id>
+		<name> Nexus Releases </name>
+	    <url> http://localhost:8081/nexus/service/local/staging/deploy/maven2 </url>
+	 </repository>
+	  <repository>
+	    <id> nexus </id>
+		<name> Nexus Snapshot </name>
+	    <url> http://localhost:8081/nexus/content/repositories/snapshots</url>
+	 </repository>
+	 repository>
+	    <id> nexus </id>
+		<name> Nexus Sites </name>
+	    <url> http://localhost:8081/nexus/sites/site</url>
+	 </repository>
+  
     <site>
       <id>gh-pages</id>
       <name>Mybatis GitHub Pages</name>
       <url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url>
-    </site>
+    </site> 
   </distributionManagement>
 
   <dependencies>
