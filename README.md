@@ -65,6 +65,7 @@ Running JPetStore sample under Tomcat (using the [cargo-maven2-plugin](https://c
 
 
 ## Try integration tests
+# Test commit
 
 Perform integration tests for screen transition.
 
