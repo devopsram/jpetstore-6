@@ -6,7 +6,7 @@
 	 }
 	 stage('Build the packages'){
 	 
-	    bat 'mvn package'
+	    sh 'mvn package'
 
 	 }
 	 stage('Archieve the build'){
